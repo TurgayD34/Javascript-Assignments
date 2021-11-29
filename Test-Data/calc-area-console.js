@@ -1,5 +1,11 @@
-//
+// In arithmetic, operations are applied according to certain rules. Calculations are made starting from the innermost parenthesis first. 
+// If there is no parenthesis, operations are performed in the following order from left to right.
+// Since the mathematical operation we do now is very short, there will be no problem. But if we do not use parentheses in questions 
+// such as larger mathematical operations, it may cause errors and the result we can get will of course be wrong. For these reasons, 
+// using parentheses allows our mathematical operations to be more regular and to get true results.
+// I was working as a maths teacher.
 
+// *************************************************
 // Case1
 // triangleOne: base = 10cm, height = 13cm
 // triangleTwo: base = 16,5cm, height = 20,3cm

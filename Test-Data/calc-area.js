@@ -20,8 +20,6 @@ function triangleTwo(){
 }
 
 function compare(){
-    // let compare = document.getElementById("compare").value;
-
     if(area1 > area2){
         document.getElementById("compare") = area1 + " is greater than " + area2;
     }

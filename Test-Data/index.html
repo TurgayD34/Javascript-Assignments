@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="h1">
+        <h1>Test Data</h1>
+    </div>
+    <div>
+        <form name="area">
+            <h3>First Triangel Area</h3>
+            <label>Base : </label>
+            <input type="text" id="num1"><br><br>
+            <label>Height : </label>
+            <input type="text" id="num2"><br><br>
+            
+            <input type="button" id="btnCal-tr1" value="Calculate" onclick="triangleOne()">
+            <p>
+                Area of Triangle: <span id="first-triangle"></span>
+            </p>
+            <!-- **************************************************** -->
+            <br><br>
+
+            <h3>Second Triangel Area</h3>
+            <label>Base : </label>
+            <input type="text" id="num3"><br><br>
+            <label>Height : </label>
+            <input type="text" id="num4"><br><br>
+            
+            <input type="button" id="btnCal-tr2" value="Calculate" onclick="triangleTwo()">
+            <p>
+                Area of Triangle: <span id="second-triangle"></span>
+            </p>
+            <!-- **************************************************** -->
+            <br><br>
+
+            <h3>Compare Triangels Area</h3>
+            <input type="button" id="btnComp" value="Compare" onclick="compare()">
+            <p>
+                Compare Triangles: <span id="compare"></span>
+            </p>
+        </form>
+        <script src="calc-area.js"></script>
+    </div>
+</body>
+</html>
